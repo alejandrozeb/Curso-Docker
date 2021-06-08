@@ -1,3 +1,10 @@
 /* apuntes Docker
-    
+    Enterprise para empresas para deploy
+    Comunity Edicion no esta enfocada a windows y entornos de produccion en linux para pruebas
+
+    podemos instlarlo en cloud azure y otros.
+
+    Enterprise edition esta en linux y especificamente para windows server
+
+    En windows server no debemos pagar por el soporte en comunity
 */
