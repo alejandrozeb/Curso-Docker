@@ -19,5 +19,16 @@
             https://www.virtualbox.org/wiki/Downloads
             usaremos la version 6.1
         - iSO windows server 2016 o 2019
-            
+    
+    //para crear una maquina virtual
+    https://www.youtube.com/watch?v=T7OwUB4RqLo&list=PLn5IkU1ZhgiZP8EewgFdxgnsIwN1q3Juo&index=4
+
+    usaremos virtual box, en el menu agregamos un nueva maquina
+    - seleccionanmos other windows
+    - damos 4 gb de ram
+    . almacenamiento dinamico y datos 100 gb de almacenamiento
+    - creamos
+    - ingresamos al menu de maquinas seleccionamos la creada vamos a configuracion->almacenamiento y selecconamos la imagen de windows que descargamos.
+
+    Virtual box usa toda la ram asignada a diferencian de hyper v.
 */
