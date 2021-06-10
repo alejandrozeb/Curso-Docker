@@ -24,11 +24,13 @@
     https://www.youtube.com/watch?v=T7OwUB4RqLo&list=PLn5IkU1ZhgiZP8EewgFdxgnsIwN1q3Juo&index=4
 
     usaremos virtual box, en el menu agregamos un nueva maquina
-    - seleccionanmos other windows
+    - seleccionanmos windows 16 x64
     - damos 4 gb de ram
     . almacenamiento dinamico y datos 100 gb de almacenamiento
     - creamos
     - ingresamos al menu de maquinas seleccionamos la creada vamos a configuracion->almacenamiento y selecconamos la imagen de windows que descargamos.
 
     Virtual box usa toda la ram asignada a diferencian de hyper v.
-*/
+    ¡¡¡¡¡¡¡¡ intel core i7 9 generacion hp pavilion pc, debes asegurarte que sea windows server 2019 x64 y en vb debe estar con windows 2016 x64 en otro caso el virtualizador pasara a modo guru
+
+    */
