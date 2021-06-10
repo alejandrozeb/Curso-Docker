@@ -45,4 +45,10 @@
     inicia un entorno de opciones, podemos cambiar nombre, configuracion de red, telemetria
     cambiamos el nombre con 2
     cambiamos el nombre a dockerCore
+
+    POdemos usar powershell o cmd
+    dependiendo que manejamos mas
+    vamos a manejar powersheel para instalar docker
+
+    virtual box asigna la entrda de internet por defecto a la maquina
     */
