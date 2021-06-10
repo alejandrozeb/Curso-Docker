@@ -33,4 +33,16 @@
     Virtual box usa toda la ram asignada a diferencian de hyper v.
     ¡¡¡¡¡¡¡¡ intel core i7 9 generacion hp pavilion pc, debes asegurarte que sea windows server 2019 x64 y en vb debe estar con windows 2016 x64 en otro caso el virtualizador pasara a modo guru
 
+    server 2019
+    existen la server core sin interfaz consume menos recursos podemos usar este en entornos productivos.
+    y server con interfaz grafica.
+    
+    en windows 2019 ya tiene soporte para docker, es bueno instalar en un servidor sin interfaz grafica debemos autorizar nanoserver como host
+
+    No sera muy necesario saber de powersheell
+
+    podemos tener otra herramienta llamada sconfig
+    inicia un entorno de opciones, podemos cambiar nombre, configuracion de red, telemetria
+    cambiamos el nombre con 2
+    cambiamos el nombre a dockerCore
     */
