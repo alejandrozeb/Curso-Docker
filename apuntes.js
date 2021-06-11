@@ -51,4 +51,26 @@
     vamos a manejar powersheel para instalar docker
 
     virtual box asigna la entrda de internet por defecto a la maquina
+    para cambiar a powershell ejecutamos
+    powershell
+
+    Primero instalamos el modulo de microsoft docker provider
+
+    install-Module -Name DockerMSFTProvider _Repository PSGallery -Force
+
+    Para instalar un paquete, instala la ultima version de docker si queremos agregamoos -RequieredVersion 18.03.1-ee-4
+
+    install-image -Name docker _providerName DockerMSFTProvider
+
+    version hasta el momento 20.10.5
+ ademas corre en cmd y powershell
+
+    con el comando
+ docker version
+ podemos ver cracteristicas mas extennsa del docker instalado
+
+ docker info
+ podemos ver la informacion de containers creados
+
+
     */
