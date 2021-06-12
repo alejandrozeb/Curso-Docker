@@ -73,4 +73,20 @@
  podemos ver la informacion de containers creados
 
 
+ ----------COMANDOS-------------------
+ La administracion es sencilla con pocos comandos podemos ya crear lo necesario
+
+ docker run --help 
+ para acceder a la ayuda de  los comandos 
+ 
+
+ ---------Imagenes-------------
+
+Son plnatillas de sistemas operativos que nos sirven para crear nuestros containers
+en win tenemos con servercore o nanoserver
+atraves de estos podemos crear nuestras implementaciones ademas de poder implementarlas y publicarlas con previa aprobacon de docker.
+
+con docker search 
+podemos buscar que imagen usaremos u otra opcion podemos buscar imagenes `publicadas en docker hub.
+algunas imagens ya vienen con implementaciones como servers, frameworks .. etc.
     */
