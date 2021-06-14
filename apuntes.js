@@ -92,4 +92,26 @@ algunas imagens ya vienen con implementaciones como servers, frameworks .. etc.
 
 Tuve Problemas con el search el servicio de daocker no estaba funcionando encontrar la solucion aqui
 https://forums.docker.com/t/installing-docker-on-windows-server-2019/98393/2
+
+podemos encontrar nanoserver con diferentes 
+
+docker search severcore
+
+igualmente encontraremos iamgens de server core con diferentes complementos
+
+docker search ubuntu 
+podemos encontrar mas imagenes de linux con nginex, mysql y demas 
+
+podemos buscar esta imgens en docker hub
+
+https://hub.docker.com/
+
+muestra mas imagenes que el comando por que en consola se muestran las mas rankeadas
+
+al ingresar a las imagenes podemos ver el ownner y el comando para instalarla. 
+
+para Mocrosoft podemos encontrar imagenes con nanoserver o servercore
+podemos buscar por diferentes terminos iss para pruebas, mysqlm wamp, xamp 
+tenemos a los propietario/nombre de la imagen
+tambien los usuarios pueden publicar sus imagenes
     */
