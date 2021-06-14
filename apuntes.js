@@ -89,4 +89,7 @@ atraves de estos podemos crear nuestras implementaciones ademas de poder impleme
 con docker search 
 podemos buscar que imagen usaremos u otra opcion podemos buscar imagenes `publicadas en docker hub.
 algunas imagens ya vienen con implementaciones como servers, frameworks .. etc.
+
+Tuve Problemas con el search el servicio de daocker no estaba funcionando encontrar la solucion aqui
+https://forums.docker.com/t/installing-docker-on-windows-server-2019/98393/2
     */
