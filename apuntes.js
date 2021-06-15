@@ -93,6 +93,9 @@ algunas imagens ya vienen con implementaciones como servers, frameworks .. etc.
 Tuve Problemas con el search el servicio de daocker no estaba funcionando encontrar la solucion aqui
 https://forums.docker.com/t/installing-docker-on-windows-server-2019/98393/2
 
+Install-Package -Name Docker -ProviderName DockerMsftProvider -Update -Force
+Start-Service Docker
+se debe iniciar el servicio cada vez que se entra a la maquina
 podemos encontrar nanoserver con diferentes 
 
 docker search severcore
@@ -114,4 +117,18 @@ para Mocrosoft podemos encontrar imagenes con nanoserver o servercore
 podemos buscar por diferentes terminos iss para pruebas, mysqlm wamp, xamp 
 tenemos a los propietario/nombre de la imagen
 tambien los usuarios pueden publicar sus imagenes
+
+listra imagenes
+docker image ls
+docker images
+
+docker images -a 
+docker images -q los id de las imagenes
+
+docker image es un completo administrador podemos guardar borrar crear
+
+docker image ls
+lista todas la imagenes
+
+
     */
