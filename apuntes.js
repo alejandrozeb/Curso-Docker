@@ -129,6 +129,26 @@ docker image es un completo administrador podemos guardar borrar crear
 
 docker image ls
 lista todas la imagenes
+para descargar una imagen 
+docker pull <<nombre de la imagen>>
 
+----container con sql server---
+docker run -d -p 14333:1433 --name MysqlServer -e $a_password=P@ssword -e ACCEPT_EULA=Y microsoft/mssql-server-windows-developer
+realiza la publicacion del puerto
+puertos provado y externo
+con -d se ejecuta el contenedor
+
+docker ps vemos los contenedores activos
+
+separacion de dependencias podemos levantar una bd de mysql otro container en sqlserver
+para actualizar 
+find-package -Name Docker -ProviderName DOckerMSFTProvider
+
+para encontar una actualizacion
+
+Install-package -Name Docker -ProviderName DOckerMSFTProvider -update -Force
+
+debemos reestablecer el servicio con 
+restart-service docker
 
     */
