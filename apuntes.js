@@ -151,4 +151,11 @@ Install-package -Name Docker -ProviderName DOckerMSFTProvider -update -Force
 debemos reestablecer el servicio con 
 restart-service docker
 
+
+------ubuntu-------------
+creamos la maquina virtual, 
+2 Gb de ram
+50 en disco duro
+debemos cambiar el controlador de pantalla Vboxvga
+LTS long term support
     */
