@@ -157,5 +157,17 @@ creamos la maquina virtual,
 2 Gb de ram
 50 en disco duro
 debemos cambiar el controlador de pantalla Vboxvga
-LTS long term support
+LTS long term support^
+ubuntu 20.04
+
+---docker en ubuntu-----
+    sudo apt update //vrifica que debemos actulizar
+    sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    //instala transport verifica el https
+    
+    agregamos la clava a la lista de repositorios
+    
+    
+
+
     */
