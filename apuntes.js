@@ -167,7 +167,32 @@ ubuntu 20.04
     
     agregamos la clava a la lista de repositorios
     
+    sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+sudo apt install update //para agregar a la liberrias
+sudo apt install docker-ce
+sudo systemctl status docker    //verificamos que esta el servicio
+
+Si ejecutan docker sin sudo les va a decir que no se esta ejecutando docker, por eso agregamos nuestro usuario al grupo de docker.
+sudo usermod -aG docker ${USER} //agregamos docker a sudo o administrador
+
+id -nG  //
+docker run hello-world
     
+------en caso no se añadio docker y solo funciona con sudo---
+sudo groupadd docker
+creamos el grupo docker si ya esta creado no pasa nada
+sudo gpasswd -a $USER docker
+añadiemos docker al grupo
+
+reiniciamos la termianl o ejecutamos
+newgrp docker
+
+y ya podemos usar docker sin sudo
+docker run hello-world
+
 
 
     */
