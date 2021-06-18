@@ -211,5 +211,12 @@ descarga una version en especifico
 
 si ya tenemos la imagene en la maquina no la descarga
 
+docker run -it --help 
+vemos la ayuda
 
+docker run ubuntu:16.04
+instalamos screenfetch
+el usuario viene por defecto, las imagenes oficiales estan optimizadas con configuraciones para poder trabajar, ademas podemos limitar la cantidad de ram que consume cada contener ademas no consume el disco
+
+al ejecutar exit de manera iterativa se borra toda la informacion y paquetes instalados de esas imagenes asi maximizamos los recursos de la pc y trabajamos de manera limpia con docker
     */
