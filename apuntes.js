@@ -193,6 +193,23 @@ newgrp docker
 y ya podemos usar docker sin sudo
 docker run hello-world
 
+podemos crear envirements personalizados que no afenctan a la maquina anfitriona, las imagenes debemos usar las oficiales las imagnes de docker hub son bases donde nosotros podemos personalizar una vez tengamos la imagen
+
+--descargar una imagen
+docker pull ubuntu 
+descarga la mas reciente
+
+--correr un container interactivo con it se crea y al salir no deja rastro
+docker run -it ubuntu
+exit para salir
+
+screenfetch 
+muestra las caracteristicas del equipo y el consumo de ram
+
+docker pull ubuntu:16.04
+descarga una version en especifico
+
+si ya tenemos la imagene en la maquina no la descarga
 
 
     */
