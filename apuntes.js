@@ -219,4 +219,26 @@ instalamos screenfetch
 el usuario viene por defecto, las imagenes oficiales estan optimizadas con configuraciones para poder trabajar, ademas podemos limitar la cantidad de ram que consume cada contener ademas no consume el disco
 
 al ejecutar exit de manera iterativa se borra toda la informacion y paquetes instalados de esas imagenes asi maximizamos los recursos de la pc y trabajamos de manera limpia con docker
+
+----docker file--------
+creando imagen la iamgen base sera en ubuntu:16.04
+
+la imagen es el envirement que se personaliza para usar en el contenedor.
+FROM ubuntu:16.04         //debemos colocar siempre la version
+
+docker nos da un ambiente para poder trabajar en cualquier maquina pero debemos ser especificos
+
+RUN mkdir /home/example/  
+//run o RUN es igual pero es mejor en mayusculas con run ejecutamos una instruccion en la imagen, en home creamos example
+
+COPY ./app /home/example/
+copia los de la carpeta app a example
+
+RUN ls /home/example
+//muestra lo de example
+
+RUN cat /home/example/message.txt
+cat imprimi el contenido de message.txt
+
+
     */
