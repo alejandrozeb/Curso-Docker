@@ -240,5 +240,9 @@ RUN ls /home/example
 RUN cat /home/example/message.txt
 cat imprimi el contenido de message.txt
 
+docker build -t first_iamge:v1 .
 
+al final indicamos donde se encuentra el docker file
+cada paso se guarda en cache
+se crea una copia de las intruccoines no importa si lo borramos
     */
