@@ -1,18 +1,29 @@
 FROM node:current-alpine3.12
+#comentario
 
+#da permiso a node a ejecutar scripts en linux, ademas verifica si un archivo sufrio modificacoin
 RUN npm config set unsafe-perm true
 
+#instala un servidor http
 RUN npm install -g http-server
 
+#hace app la carpeta de trabajo actual, app existe dentro de la imagen
 WORKDIR /app
 
+#copia el package.json a app 
 COPY package*.json ./
 
+#instala las dependencias del proyecto
 RUN npm install
 
-
+#copia los archivo del proyecto a directorio de trabajo
+#con punto copia todo y luego decimos donde
 COPY . .
-
+#construir aplicaon para produccion minificada
 RUN npm run build
 
-CMD [ "http-server", "dist" ]
+#ejecuta el servidpr en el puerto 8080
+#RUN http server dist
+#------CMD [ "http-server", "dist" ]
+#8080
+#CMD ["npm", "run", "serve"

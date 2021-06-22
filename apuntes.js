@@ -253,4 +253,10 @@ existen imagens en base a un lenguaje, con las configuraciones
 
 alpine 
 son ligeras y tienen lo esencial para trabajar pero si necesitamos mas depedencias tenemos que instarlarlas
-    */
+    
+
+docker build -t prueba2:v2 .
+para crear
+debemos exponer un puerto 
+docker run -it <<nombre>>
+*/
