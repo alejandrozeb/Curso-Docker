@@ -1,0 +1,18 @@
+FROM node:current-alpine3.12
+
+RUN npm config set unsafe-perm true
+
+RUN npm install -g http-server
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+
+COPY . .
+
+RUN npm run build
+
+CMD [ "http-server", "dist" ]

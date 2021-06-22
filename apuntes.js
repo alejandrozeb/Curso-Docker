@@ -245,4 +245,12 @@ docker build -t first_iamge:v1 .
 al final indicamos donde se encuentra el docker file
 cada paso se guarda en cache
 se crea una copia de las intruccoines no importa si lo borramos
+
+
+--------ejemeplo con front----
+
+existen imagens en base a un lenguaje, con las configuraciones
+
+alpine 
+son ligeras y tienen lo esencial para trabajar pero si necesitamos mas depedencias tenemos que instarlarlas
     */
