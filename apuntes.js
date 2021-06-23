@@ -259,4 +259,20 @@ docker build -t prueba2:v2 .
 para crear
 debemos exponer un puerto 
 docker run -it <<nombre>>
+
+---------paea exponer puertos----
+el puerto es nginx por defecto maneja el pueto 80,
+docker run  -p 80:8080 prueba2:v2
+
+con -p inidicamos que el puerto 80 de mi mauina apunte al puerto 8080 del contenedor
+
+y ya tenemos proyecto en produccion 
+
+docker run -d -p 80:8080 prueba2:v2
+ -d para pasarlo a ejecutarse a fondo
+
+
+ cuando trabajamos varios docker files y necesitamos que se comuniquen entre si usamos docker compose
+ con docker compose podemos levantar todos los proyectos de manera mas rapida
+ 
 */
