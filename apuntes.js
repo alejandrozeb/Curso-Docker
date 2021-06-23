@@ -274,5 +274,9 @@ docker run -d -p 80:8080 prueba2:v2
 
  cuando trabajamos varios docker files y necesitamos que se comuniquen entre si usamos docker compose
  con docker compose podemos levantar todos los proyectos de manera mas rapida
- 
+
+ docker ps -a 
+ muestra todos los contenedores ejecutandose y ejecutados
+
+ si no hay actividad no mantiene el servidor en el contenedor 
 */
