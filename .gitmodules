@@ -1,0 +1,3 @@
+[submodule "dockerReact/Typescript"]
+	path = dockerReact/Typescript
+	url = https://github.com/alejandrozeb/Typescript.git

@@ -279,4 +279,21 @@ docker run -d -p 80:8080 prueba2:v2
  muestra todos los contenedores ejecutandose y ejecutados
 
  si no hay actividad no mantiene el servidor en el contenedor 
+
+ ------------git submodules-------------------
+ git te permite hacer un repositorio que sea de referencia a otros
+ tenemos un main
+    este proyecto
+podemos agregar otros proyectos omo submodules
+como una clonacion recursiva
+
+git clone <<link>>
+
+recursivo
+git clone <<link>> --recursive-submodules
+
+clona el proyecto de manera recursiva
+
+si una persona tiene mas proyectos solo usan su proyecto.
+
 */
