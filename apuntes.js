@@ -301,4 +301,21 @@ si una persona tiene mas proyectos solo usan su proyecto.
 docker run -itd first_image:1.0
 
 para que vaya a segundo plano el container
+
+para entrar a un contenedor ejecutandose
+docker exec -it <<id contenedor>> bash
+
+touch crea archivos vacios
+
+pwd podemos ver la ruta del archivo
+
+docker cp <<nombrecontenedor:ruta/archivo >> <<referencia de donde copiar>>
+
+del container al principal
+docker cp jovial_matsumoto:/home/example/copy_this_file.txt .
+
+copair del principal al container
+docker cp update_file.txt jovial_matsumoto:/home/example
+
+tambien podemos tener una sincronizacion
 */
