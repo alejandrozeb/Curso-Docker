@@ -296,4 +296,9 @@ clona el proyecto de manera recursiva
 
 si una persona tiene mas proyectos solo usan su proyecto.
 
+---- Copiar archivos a un container y de un container a un proyecto anfitrion---
+
+docker run -itd first_image:1.0
+
+para que vaya a segundo plano el container
 */
