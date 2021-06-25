@@ -318,4 +318,27 @@ copair del principal al container
 docker cp update_file.txt jovial_matsumoto:/home/example
 
 tambien podemos tener una sincronizacion
+
+
+-----BIND----------
+espejear datos del anfitrion al container
+
+docker run -itd --mount type=bind,source="$(pwd)",target=/home/example first_image:1.0 bash
+mount avisamos el espejo de datos
+
+trabajamos en el directorio y podemos que sis e reflejan los cambios afuera
+RUN mkdir /home/example/
+COPY ./app /home/example/
+RUN ls /home/example
+RUN cat /home/example/message.txt
+editamos el docker file
+
+docker container stop 38604ff4e576
+
+para parar el container
+
+debemos tener cuidado cuando reflejamos dos container s al mismo principal
+si afectamos a un container el principal y el otro container saldran afectados
+
+
 */
