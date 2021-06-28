@@ -342,4 +342,21 @@ si afectamos a un container el principal y el otro container saldran afectados
 
 ---proyecto rails--------
 mysql se usa de manera local es mas facil
+cambiar nombre a un contenedor
+
+
+dcoker exec --name ruby_custom_example -itd ruby_custom:1.0 bash
+
+docker exec -it ruby_custom_example bash
+s
+ en el contenedor tenemosruby mysql y rails instalados pero en la 
+ principal no ademas ejecutamos
+ rails new basic_api --api --database=mysql
+ en el contenedor para crear una api simple
+
+ docker cp ruby_custom_example:/home/app/basic_api .
+
+ para copiar el proyecto al principal.
+ docker file de creacion y de trabajo
+
 */
