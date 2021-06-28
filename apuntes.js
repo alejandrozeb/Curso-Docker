@@ -340,5 +340,6 @@ para parar el container
 debemos tener cuidado cuando reflejamos dos container s al mismo principal
 si afectamos a un container el principal y el otro container saldran afectados
 
-
+---proyecto rails--------
+mysql se usa de manera local es mas facil
 */
