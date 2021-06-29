@@ -361,7 +361,34 @@ s
 
 
  -----MYSQL instalcion manual-------------
+el container si no tiene algo en proceso se cierra
 
+rails bd:create
+crea la base de datos
+pero no existe mysql
 
- 
+service --status-all
+para ver si mysql esta funcionando
+
+para iniciar el servicio
+service mysql start
+
+para configurar el mysql
+mysql_secure_installation
+
+rails db:create
+
+rails db:migrate
+
+rails db:seed
+
+rails c
+consola 
+User.all User.count para mostrar las truplas o contarlas
+
+rails s -b 0.0.0.0 
+para ejecutar el proyecto en servidor 
+-b 0.0.0.0
+se sincroniza con la ip del ordenador
+
 */
