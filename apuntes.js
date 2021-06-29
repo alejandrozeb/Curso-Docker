@@ -359,4 +359,9 @@ s
  para copiar el proyecto al principal.
  docker file de creacion y de trabajo
 
+
+ -----MYSQL instalcion manual-------------
+
+
+ 
 */
