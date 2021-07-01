@@ -391,4 +391,19 @@ para ejecutar el proyecto en servidor
 -b 0.0.0.0
 se sincroniza con la ip del ordenador
 
+--------mysql image------
+http://localhost:8080/
+
+instancia de mysql y configurandola
+se conectan a traves del nombre de la instancia
+https://github.com/vurokrazia/curso_youtube_docker/tree/main/container_mysql
+
+docker exec -it mysql-curse mysql -p
+ejecutamos mysql en el container
+mysql createdatabase example;
+use example;
+show tables;
+
+si detenemos el container la informacion va a desaparecer
+pero esto podemos arreglarlo con volumenes.
 */
