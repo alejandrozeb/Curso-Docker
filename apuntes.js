@@ -406,4 +406,22 @@ show tables;
 
 si detenemos el container la informacion va a desaparecer
 pero esto podemos arreglarlo con volumenes.
+
+----volumenes-------
+podmos guardar en un volumen la informacion
+  docker volume create mysql-curse-data
+
+  para crear un volumen
+
+  luego indicamos donde se debe guadar la informacion donde mysql guarda la data
+dst=/var/lib/mysql
+montamos el gestor
+todo lo que eesta aqui guarda la informacion
+variable password
+
+docker run -d -p 3306:3306 --name mysql-curse -e MYSQL_ROOT_PASSWORD=123456 --mount src=mysql-curse-data,dst=/var/lib/mysql mysql:5.7 
+
+con docker compose podemos hacerlo mas rapido
+docker run -d -p 3305:3306 --name mysql-curse-without-v -e MYSQL_ROOT_PASSWORD=123456 --mount src=mysql-curse-data,dst=/var/lib/mysql mysql:5.7 
+
 */
