@@ -438,7 +438,23 @@ Podemos usar workbentch para conectar una bd remota a nuestro contenedor
  - conectamos workbencth con el puerto del contenedor que especificamos
  y ya estan conectadas las dos bd
 
- 
+ ---envirement data-------
+ las variables de entorno y como usarlas
+
+ docker volume rm <<nombre>>
+ para eliminar un volumen
+
+ docker run -d -p 3306:3306 --name mysql-curse --env-file .env --mount src=mysql-curse-data,dst=/var/lib/mysql mysql:5.7 
+
+ leemos el .env
+
+ mysql -p para entrar como user
+ con printenv podemos ver las varaibles de entorno
+ del container
+
+ printenv | grep NAME
+ para ver las variables
+
 
 
 
