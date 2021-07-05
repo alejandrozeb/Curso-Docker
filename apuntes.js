@@ -424,4 +424,22 @@ docker run -d -p 3306:3306 --name mysql-curse -e MYSQL_ROOT_PASSWORD=123456 --mo
 con docker compose podemos hacerlo mas rapido
 docker run -d -p 3305:3306 --name mysql-curse-without-v -e MYSQL_ROOT_PASSWORD=123456 --mount src=mysql-curse-data,dst=/var/lib/mysql mysql:5.7 
 
+docker stop $(docker ps -a -q)
+para todos los contenedores
+
+------Workbentch-------------
+Hostname localhost
+port 3306
+password el que queramos
+
+Podemos usar workbentch para conectar una bd remota a nuestro contenedor
+ - conectamos workbentch con una bd remota
+ - levantamos una imagen de doker con mysql y persistencia
+ - conectamos workbencth con el puerto del contenedor que especificamos
+ y ya estan conectadas las dos bd
+
+ 
+
+
+
 */
