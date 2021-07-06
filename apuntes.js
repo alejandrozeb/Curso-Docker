@@ -456,6 +456,29 @@ Podemos usar workbentch para conectar una bd remota a nuestro contenedor
  para ver las variables
 
 
+ --------NETWORK------
+ podemos usa redesa para comunicar los contenedores ademas 
+ si los conteendores estan separados se puden comunicar
+ normalmente se usa por separado.
+
+ docker network ls
+ 
+ listamos las network disponibles
+
+docker network ls -q
+
+lista las id de los docker
+
+docker network rm <<nombre>>
+
+docker network create <<nombre>>
+para crear un nuevoo network
+
+es una red creada, ademas tenemos que especificar donde se va a conectar
+
+
+
+
 
 
 */
