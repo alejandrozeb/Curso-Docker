@@ -476,8 +476,8 @@ para crear un nuevoo network
 
 es una red creada, ademas tenemos que especificar donde se va a conectar
 
-
-
+-------NETWORK ENTRE CONTAINERS------------
+conectando rals y mysql
 
 
 

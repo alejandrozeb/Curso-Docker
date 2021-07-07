@@ -39,4 +39,23 @@ pra conectar un contenedor con otro
 docker disconnect rails-api-mysql
 
 para desconectar un contanier de otro
+
+--------CONFIG DOCKERFILE PARA RUBY----------
+FROM ruby:2.5.1-alpine3.7
+
+para usar eel poduccion usamos imagenes alpine son mas ligeras que las normales
+
+RUN APK UPDATE && apk add bash
+RUN mkdir -p /home/app
+WORKDIR  /HOME/APP
+COPY . .
+RUN /bin/sh -c "apk add --no-cache bash"
+
+de esta forma abrimos el bash en imagenes alpine
+
+docker exec -it rails-api ping rails-api-mysql
+muestra el ping de llegda y respuesta
+
+
+
 */
