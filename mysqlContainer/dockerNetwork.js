@@ -57,5 +57,9 @@ docker exec -it rails-api ping rails-api-mysql
 muestra el ping de llegda y respuesta
 
 
+---- CONFIGURACIN VARIABLES DE ENTORNO-------
+
+
+
 
 */

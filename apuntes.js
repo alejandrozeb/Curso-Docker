@@ -479,6 +479,10 @@ es una red creada, ademas tenemos que especificar donde se va a conectar
 -------NETWORK ENTRE CONTAINERS------------
 conectando rals y mysql
 
+rails s -b 0.0.0.0
+levanta el servidor
 
+CMD ["rails","s", "-b","0.0.0.0"]
+ejecuta el servidor
 
 */
