@@ -485,4 +485,9 @@ levanta el servidor
 CMD ["rails","s", "-b","0.0.0.0"]
 ejecuta el servidor
 
+------Docker extencion VS------
+podemos visualizar los containers con VS
+podemos agregar tags ejecutar comandos
+podemos abrir un editor dentro del container
+y trabajar desde adentro del conntainer
 */
