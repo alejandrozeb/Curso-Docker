@@ -1,0 +1,80 @@
+@import './public/FormReservation/view/FormReservation.css';
+@import './public/ListRooms/view/ListRooms.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* colors */
+  --primary-color: #6200EE;
+  --letter-bg-color: #323B3C;
+  --bg-color: #8c9697;
+  --bg-color-light: #d4d7d7;
+  --error-color: #B00020;
+  --white-color: #FFF;
+}
+
+body {
+  /* border: 1px solid cyan; */
+  height: 100vh;
+  /* overflow-y: scroll; */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--letter-bg-color);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --header-- */
+header {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  /* color: var(--bg-color); */
+  background-color: var(--bg-color);
+  position: fixed;
+  width: 100%;
+}
+
+/* --content-- */
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  /* height: 100%; */
+  background-color: var(--bg-color-light);
+}
+
+/* --nav-- */
+nav {
+  padding: 1rem 2rem;
+  width: 200px;
+}
+
+/* --main-- */
+main {
+  /* align-items: stretch; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}

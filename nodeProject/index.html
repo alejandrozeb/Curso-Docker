@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Project- bat-front</title>
+  <meta name="description" content="Bootcamp Fundacion Jalasoft.">
+  <meta name="author" content="Funda">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Hotel Management System</h1>
+  </header>
+  <div class="content">
+    <nav>
+      <ul>
+        <li>
+          <a href="./index">List all rooms</a>
+        </li>
+        <li>
+          <a href="#">List of reservarion</a>
+        </li>
+        <li>
+          <a href="#">List of canceled</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Create a reservation</h2>
+      <div class="form-container" id="form-container">
+      <!--  <form id="form">
+          <div class="form-container__seccion">
+            <h3>Guest Information</h3>
+            <label for="fName1" class="form-container__field">
+              <input type="text" placeholder="Firstname" id="fName1" autocomplete="none" required>
+              <p>Firstname</p>
+            </label>
+            <label for="lName1" class="form-container__field">
+              <input type="text" placeholder="Lastname" id="lName1" autocomplete="none" required>
+              <p>Lastname</p>
+            </label>
+            <label for="identity" class="form-container__field">
+              <input type="text" placeholder="Identity number" id="identity" required>
+              <p>DNI</p>
+            </label>
+            <label for="partner" class="form-container__field-check">
+              <input type="checkbox" name="partner" id="partner">
+              Companion (optional)
+            </label>
+            <div class="form-container__companion">
+              <label for="fName2" class="form-container__field">
+                <input type="text" placeholder="Firstname" id="fName2" autocomplete="none" disabled required>
+                <p>Firstname</p>
+              </label>
+              <label for="lName2" class="form-container__field">
+                <input type="text" placeholder="Lastname" id="lName2" autocomplete="none" disabled required>
+                <p>Lastname</p>
+              </label>
+            </div>
+          </div>
+          <br>
+          <div class="form-container__seccion">
+            <h3>Room Information</h3>
+            <label for="check-in" class="form-container__field">
+              <input type="date" id="check-in">
+              <p>Check-in</p>
+            </label>
+            <label for="check-out" class="form-container__field">
+              <input type="date" id="check-out">
+              <p>Check-out</p>
+            </label>
+            <div class="form-container__radio-btn">
+              <label for="penthouse">
+                <input type="radio" id="penthouse" name="type_room" value="penthouse" checked>
+                <span>Penthouse</span>
+              </label>
+              <label for="matrimonial">
+                <input type="radio" id="matrimonial" name="type_room" value="matrimonial">
+                <span>Matrimonial</span>
+              </label>
+              <label for="double">
+                <input type="radio" id="double" name="type_room" value="double">
+                <span>Double</span>
+              </label>
+              <label for="single">
+                <input type="radio" id="single" name="type_room" value="single">
+                <span>Single</span>
+              </label>
+            </div>
+            <label for="room" class="form-container__field">
+              <select name="room" id="room" class="form-container__field-select">
+                <option value="401">401</option>
+                <option value="402">402</option>
+                <option value="403">403</option>
+                <option value="404">404</option>
+              </select>
+              <p>Select room</p>
+            </label>
+
+            <label for="room" class="form-container__field">
+              <select name="room" id="room" class="form-container__field-select">
+                <option value="reservarion">Reservation</option>
+                <option value="registration">Registration</option>
+              </select>
+              <p>Reservation or registration</p>
+            </label>
+  
+            <p class="form-container__field-price">Total Price: <span>150.00$</span></p>
+            <button type="submit" id="btn-submit" class="btn btn-primary">MAKE RESERVATION</button>
+          </div>
+        </form> -->
+      </div>
+      <div class="ListRooms" ></div>
+
+      <h2>List of reservations</h2>
+      <div>
+        <table>
+          <thead>
+            <th>ID</th>
+            <th>Guest</th>
+            <th>DNI</th>
+            <th>Partner</th>
+            <th>Check-In</th>
+            <th>Check-Out</th>
+            <th>Type of room</th>
+            <th>Edit</th>
+          </thead>
+          <tbody id="reservarion-list">
+            <tr>
+              <td>404</td>
+              <td>Maria Anders</td>
+              <td>123456</td>
+              <td>No</td>
+              <td>20-5-2022</td>
+              <td>25-5-2022</td>
+              <td>Single</td>
+              <td>---</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="List-Rooms" id="list-Rooms"></div>
+
+      <!-- <h2>List of rooms</h2>
+      <container class="room_space">
+        <table class="room_table">
+          <thead>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Guest</th>
+            <th>Partner</th>
+            <th>Check-in</th>
+            <th>Check-out</th>
+            <th>Reservation Type</th>
+            <th>Status</th>
+            <th>Night Price</th>
+          </thead>
+          <tbody id="room_data">
+          </tbody>
+        </table>
+      </container> -->
+    </main>
+  </div>
+  <!-- <footer>
+    <p>May, 2022</p>
+  </footer> -->
+  <script src="./index.js" type="module"></script>
+  <script src="./public/FormReservation/FormReservationController.js" type="module"></script> 
+  <script src="./public/ListRooms/ListRoomsController.js" type="module"></script>
+  <script src="./public/ListReservations/ListReservationController.js" type="module"></script>
+</body>
+</html>

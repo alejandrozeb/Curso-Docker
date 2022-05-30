@@ -1,0 +1,33 @@
+.room_space{
+    padding: 30px;
+    border: black solid 1px;
+  }
+  
+  .room_table{
+    font-family: "Fraunces", serif;
+    font-size: 125%;
+    white-space: nowrap;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+    border: 1px solid black;
+  }
+  table td,
+  table th {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+  }
+  table thead th {
+    padding: 3px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 25vw;
+    background: white;
+  }
+  table td {
+    background: #fff;
+    padding: 4px 5px;
+    text-align: center;
+  }
